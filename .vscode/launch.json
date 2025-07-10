@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Count Settings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/count_settings.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Request Data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/request_data.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Model training",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/train.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/evaluation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Predictions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/predictions.py",
+            "console": "integratedTerminal"
+        },
+    ]
+}
