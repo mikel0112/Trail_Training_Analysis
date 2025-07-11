@@ -95,7 +95,7 @@ def run_activities_full_data(name, run_activities_id, file_path, access_token):
 
         with open(file_path, 'r') as json_file:
             athlete_run_metadata = json.load(json_file)
-    
+        
         for key in athlete_run_metadata[f"{name}"]:
             old_list.append(key)
         # if it 
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     name = athlete_name.replace(" ", "")
     file_path = f"data/archivos_json_actividades/{name}_athlete_run_metadata.json"
-    athlete_run_metadata = run_activities_full_data(name, run_activities_id, file_path, access_token)
+    athlete_run_metadata = run_activities_full_data(athlete_name, run_activities_id, file_path, access_token)
     print("Athlete run metadata fetched successfully.")
 
     with open(file_path, 'w') as json_file:

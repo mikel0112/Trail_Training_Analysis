@@ -26,17 +26,17 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Model training",
+            "name": "Global Stats",
             "type": "debugpy",
             "request": "launch",
-            "program": "src/train.py",
+            "program": "src/global_stats.py",
             "console": "integratedTerminal"
         },
         {
-            "name": "Evaluation",
+            "name": "Running Evolution",
             "type": "debugpy",
             "request": "launch",
-            "program": "src/evaluation.py",
+            "program": "src/running_evolution.py",
             "console": "integratedTerminal"
         },
         {
