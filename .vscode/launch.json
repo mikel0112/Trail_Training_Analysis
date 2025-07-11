@@ -46,5 +46,12 @@
             "program": "src/yearly_intensity_distribution.py",
             "console": "integratedTerminal"
         },
+        {
+            "name": "Individual Activity Metrics",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/individual_activity_metrics.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
