@@ -40,10 +40,10 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Predictions",
+            "name": "Yearly Intensity Distribution",
             "type": "debugpy",
             "request": "launch",
-            "program": "src/predictions.py",
+            "program": "src/yearly_intensity_distribution.py",
             "console": "integratedTerminal"
         },
     ]
