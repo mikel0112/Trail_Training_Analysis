@@ -53,5 +53,12 @@
             "program": "src/individual_activity_metrics.py",
             "console": "integratedTerminal"
         },
+        {
+            "name": "Up_run_hike_Down",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/yearly_performance_uphill_hike_run_downhill.py",
+            "console": "integratedTerminal"
+        },
     ]
 }

@@ -1,0 +1,885 @@
+{
+    "2025": {
+        "pulso 110_120": {
+            "uphill_hike": {
+                "tiempo": 8.58,
+                "distancia": 0.38,
+                "ritmo": Infinity,
+                "pulso": 115.43,
+                "potencia": 253.38,
+                "cuesta_porcentaje": 35.27,
+                "desnivel": 133.0,
+                "velocidad_vertical m/h": 930.07
+            },
+            "downhill_run": {
+                "tiempo": 64.78,
+                "distancia": 8.18,
+                "ritmo": 5.72,
+                "pulso": 117.34,
+                "potencia": 171.42,
+                "cuesta_porcentaje": -17.4,
+                "desnivel": 356.0,
+                "velocidad_vertical m/h": 329.73
+            }
+        },
+        "pulso 120_130": {
+            "uphill_hike": {
+                "tiempo": 7.87,
+                "distancia": 0.38,
+                "ritmo": Infinity,
+                "pulso": 127.05,
+                "potencia": 277.35,
+                "cuesta_porcentaje": 33.77,
+                "desnivel": 128.0,
+                "velocidad_vertical m/h": 975.86
+            },
+            "downhill_run": {
+                "tiempo": 10.42,
+                "distancia": 2.55,
+                "ritmo": 4.17,
+                "pulso": 128.35,
+                "potencia": 208.38,
+                "cuesta_porcentaje": -15.59,
+                "desnivel": 330.0,
+                "velocidad_vertical m/h": 1900.19
+            }
+        },
+        "pulso 130_140": {
+            "uphill_hike": {
+                "tiempo": 8.37,
+                "distancia": 0.46,
+                "ritmo": Infinity,
+                "pulso": 135.56,
+                "potencia": 293.68,
+                "cuesta_porcentaje": 32.09,
+                "desnivel": 140.0,
+                "velocidad_vertical m/h": 1003.58
+            },
+            "downhill_run": {
+                "tiempo": 21.58,
+                "distancia": 4.56,
+                "ritmo": 4.03,
+                "pulso": 139.9,
+                "potencia": 264.02,
+                "cuesta_porcentaje": -10.01,
+                "desnivel": 74.0,
+                "velocidad_vertical m/h": 205.75
+            }
+        },
+        "pulso 140_150": {
+            "uphill_hike": {
+                "tiempo": 7.03,
+                "distancia": 0.32,
+                "ritmo": 26.41,
+                "pulso": 140.57,
+                "potencia": 287.64,
+                "cuesta_porcentaje": 37.41,
+                "desnivel": 121.0,
+                "velocidad_vertical m/h": 1032.72
+            },
+            "downhill_run": {
+                "tiempo": 9.73,
+                "distancia": 1.87,
+                "ritmo": 4.97,
+                "pulso": 140.48,
+                "potencia": 192.99,
+                "cuesta_porcentaje": -18.0,
+                "desnivel": 185.0,
+                "velocidad_vertical m/h": 1140.8
+            }
+        },
+        "pulso 150_160": {
+            "uphill_run": {
+                "tiempo": 71.12,
+                "distancia": 5.82,
+                "ritmo": 13.21,
+                "pulso": 159.68,
+                "potencia": 380.93,
+                "cuesta_porcentaje": 30.26,
+                "desnivel": 375.0,
+                "velocidad_vertical m/h": 316.37
+            },
+            "uphill_hike": {
+                "tiempo": 27.07,
+                "distancia": 2.41,
+                "ritmo": 18.65,
+                "pulso": 154.97,
+                "potencia": 349.51,
+                "cuesta_porcentaje": 36.8,
+                "desnivel": 129.0,
+                "velocidad_vertical m/h": 285.93
+            }
+        },
+        "pulso 160_170": {},
+        "pulso 170_180": {
+            "uphill_run": {
+                "tiempo": 8.17,
+                "distancia": 1.08,
+                "ritmo": 7.93,
+                "pulso": 175.98,
+                "potencia": 418.54,
+                "cuesta_porcentaje": 21.11,
+                "desnivel": 200.0,
+                "velocidad_vertical m/h": 1468.79
+            }
+        },
+        "pulso": {
+            "tiempo": 6.83,
+            "distancia": 0.39,
+            "ritmo": Infinity,
+            "pulso": 162.99,
+            "potencia": 332.11,
+            "cuesta_porcentaje": 33.95,
+            "desnivel": 132.0,
+            "velocidad_vertical m/h": 1159.59
+        }
+    },
+    "2024": {
+        "pulso 110_120": {
+            "uphill_hike": {
+                "tiempo": 7.58,
+                "distancia": 0.4,
+                "ritmo": 23.54,
+                "pulso": 119.2,
+                "potencia": 280.73,
+                "cuesta_porcentaje": 32.68,
+                "desnivel": 127.0,
+                "velocidad_vertical m/h": 1005.28,
+                "fecha": "2024-09-23"
+            },
+            "downhill_run": {
+                "tiempo": 14.5,
+                "distancia": 2.6,
+                "ritmo": 5.2,
+                "pulso": 114.24,
+                "potencia": 207.23,
+                "cuesta_porcentaje": -8.72,
+                "desnivel": 55.0,
+                "velocidad_vertical m/h": 227.59
+            }
+        },
+        "pulso 120_130": {
+            "uphill_run": {
+                "tiempo": 8.17,
+                "distancia": 0.85,
+                "ritmo": 9.85,
+                "pulso": 125.74,
+                "potencia": 281.43,
+                "cuesta_porcentaje": 14.77,
+                "desnivel": 121.0,
+                "velocidad_vertical m/h": 888.62
+            },
+            "uphill_hike": {
+                "tiempo": 7.25,
+                "distancia": 0.41,
+                "ritmo": 22.2,
+                "pulso": 129.76,
+                "potencia": 331.69,
+                "cuesta_porcentaje": 33.69,
+                "desnivel": 132.0,
+                "velocidad_vertical m/h": 1092.41
+            },
+            "downhill_run": {
+                "tiempo": 10.5,
+                "distancia": 1.93,
+                "ritmo": 5.39,
+                "pulso": 123.22,
+                "potencia": 212.12,
+                "cuesta_porcentaje": -8.58,
+                "desnivel": 78.0,
+                "velocidad_vertical m/h": 445.71
+            }
+        },
+        "pulso 130_140": {
+            "uphill_hike": {
+                "tiempo": 7.75,
+                "distancia": 0.45,
+                "ritmo": 18.67,
+                "pulso": 136.94,
+                "potencia": 342.19,
+                "cuesta_porcentaje": 34.49,
+                "desnivel": 156.0,
+                "velocidad_vertical m/h": 1207.74
+            },
+            "downhill_run": {
+                "tiempo": 13.7,
+                "distancia": 2.62,
+                "ritmo": 4.14,
+                "pulso": 134.61,
+                "potencia": 230.11,
+                "cuesta_porcentaje": -10.73,
+                "desnivel": 83.0,
+                "velocidad_vertical m/h": 363.5
+            }
+        },
+        "pulso 140_150": {
+            "uphill_run": {
+                "tiempo": 16.33,
+                "distancia": 1.77,
+                "ritmo": 9.73,
+                "pulso": 148.5,
+                "potencia": 338.32,
+                "cuesta_porcentaje": 20.83,
+                "desnivel": 320.0,
+                "velocidad_vertical m/h": 1175.75
+            },
+            "uphill_hike": {
+                "tiempo": 90.27,
+                "distancia": 10.07,
+                "ritmo": Infinity,
+                "pulso": 145.09,
+                "potencia": 324.15,
+                "cuesta_porcentaje": 27.79,
+                "desnivel": 290.0,
+                "velocidad_vertical m/h": 192.76
+            },
+            "downhill_run": {
+                "tiempo": 34.4,
+                "distancia": 7.27,
+                "ritmo": 10.06,
+                "pulso": 147.91,
+                "potencia": 319.94,
+                "cuesta_porcentaje": -6.33,
+                "desnivel": 30.0,
+                "velocidad_vertical m/h": 52.33
+            }
+        },
+        "pulso 150_160": {
+            "uphill_run": {
+                "tiempo": 13.03,
+                "distancia": 1.47,
+                "ritmo": 9.4,
+                "pulso": 157.39,
+                "potencia": 348.47,
+                "cuesta_porcentaje": 20.77,
+                "desnivel": 266.0,
+                "velocidad_vertical m/h": 1224.87
+            },
+            "uphill_hike": {
+                "tiempo": 8.33,
+                "distancia": 0.64,
+                "ritmo": 13.64,
+                "pulso": 154.29,
+                "potencia": 318.09,
+                "cuesta_porcentaje": 25.81,
+                "desnivel": 150.0,
+                "velocidad_vertical m/h": 1080.43
+            },
+            "downhill_run": {
+                "tiempo": 15.63,
+                "distancia": 2.69,
+                "ritmo": 4.72,
+                "pulso": 159.48,
+                "potencia": 196.45,
+                "cuesta_porcentaje": -15.87,
+                "desnivel": 78.0,
+                "velocidad_vertical m/h": 299.42
+            }
+        },
+        "pulso 160_170": {},
+        "pulso 170_180": {
+            "downhill_run": {
+                "tiempo": 9.92,
+                "distancia": 2.31,
+                "ritmo": 4.91,
+                "pulso": 175.14,
+                "potencia": 216.66,
+                "cuesta_porcentaje": -27.25,
+                "desnivel": 582.0,
+                "velocidad_vertical m/h": 3520.16
+            }
+        },
+        "pulso": {
+            "tiempo": 40.97,
+            "distancia": 6.43,
+            "ritmo": 5.71,
+            "pulso": 160.73,
+            "potencia": 177.3,
+            "cuesta_porcentaje": -11.45,
+            "desnivel": 280.0,
+            "velocidad_vertical m/h": 410.06
+        }
+    },
+    "2023": {
+        "pulso 110_120": {
+            "uphill_hike": {
+                "tiempo": 43.15,
+                "distancia": 5.45,
+                "ritmo": 19.92,
+                "pulso": 119.49,
+                "potencia": 166.74,
+                "cuesta_porcentaje": 25.72,
+                "desnivel": 366.6,
+                "velocidad_vertical m/h": 509.76
+            },
+            "downhill_run": {
+                "tiempo": 7.38,
+                "distancia": 1.61,
+                "ritmo": 4.6,
+                "pulso": 119.4,
+                "potencia": 235.25,
+                "cuesta_porcentaje": -12.95,
+                "desnivel": 201.0,
+                "velocidad_vertical m/h": 1634.15
+            }
+        },
+        "pulso 120_130": {
+            "uphill_run": {
+                "tiempo": 18.4,
+                "distancia": 2.96,
+                "ritmo": 5.91,
+                "pulso": 127.78,
+                "potencia": 234.93,
+                "cuesta_porcentaje": 5.5,
+                "desnivel": 440.6,
+                "velocidad_vertical m/h": 1436.74
+            },
+            "uphill_hike": {
+                "tiempo": 23.18,
+                "distancia": 3.63,
+                "ritmo": 12.5,
+                "pulso": 128.89,
+                "potencia": 226.18,
+                "cuesta_porcentaje": 13.93,
+                "desnivel": 37.8,
+                "velocidad_vertical m/h": 97.84
+            },
+            "downhill_run": {
+                "tiempo": 6.97,
+                "distancia": 1.45,
+                "ritmo": 4.97,
+                "pulso": 127.29,
+                "potencia": 251.91,
+                "cuesta_porcentaje": -9.19,
+                "desnivel": 105.9,
+                "velocidad_vertical m/h": 911.62
+            }
+        },
+        "pulso 130_140": {
+            "uphill_run": {
+                "tiempo": 9.95,
+                "distancia": 1.54,
+                "ritmo": 6.77,
+                "pulso": 135.96,
+                "potencia": 281.24,
+                "cuesta_porcentaje": 6.33,
+                "desnivel": 88.0,
+                "velocidad_vertical m/h": 530.65
+            },
+            "uphill_hike": {
+                "tiempo": 17.83,
+                "distancia": 2.55,
+                "ritmo": 11.61,
+                "pulso": 139.97,
+                "potencia": 247.0,
+                "cuesta_porcentaje": 14.5,
+                "desnivel": 31.0,
+                "velocidad_vertical m/h": 104.32
+            },
+            "downhill_run": {
+                "tiempo": 20.13,
+                "distancia": 2.99,
+                "ritmo": 5.0,
+                "pulso": 138.9,
+                "potencia": 269.47,
+                "cuesta_porcentaje": -8.08,
+                "desnivel": 54.9,
+                "velocidad_vertical m/h": 163.64
+            }
+        },
+        "pulso 140_150": {
+            "uphill_run": {
+                "tiempo": 41.77,
+                "distancia": 7.34,
+                "ritmo": 7.86,
+                "pulso": 147.38,
+                "potencia": 319.23,
+                "cuesta_porcentaje": 11.38,
+                "desnivel": 128.4,
+                "velocidad_vertical m/h": 184.44
+            },
+            "uphill_hike": {
+                "tiempo": 18.08,
+                "distancia": 1.16,
+                "ritmo": 19.06,
+                "pulso": 146.02,
+                "potencia": 285.42,
+                "cuesta_porcentaje": 27.81,
+                "desnivel": 280.0,
+                "velocidad_vertical m/h": 929.2
+            },
+            "downhill_run": {
+                "tiempo": 19.22,
+                "distancia": 2.95,
+                "ritmo": 5.56,
+                "pulso": 144.12,
+                "potencia": 265.56,
+                "cuesta_porcentaje": -6.63,
+                "desnivel": 54.9,
+                "velocidad_vertical m/h": 171.38
+            }
+        },
+        "pulso 150_160": {
+            "uphill_run": {
+                "tiempo": 7.0,
+                "distancia": 1.18,
+                "ritmo": 6.49,
+                "pulso": 159.18,
+                "potencia": 336.0,
+                "cuesta_porcentaje": 10.73,
+                "desnivel": 102.0,
+                "velocidad_vertical m/h": 874.29
+            },
+            "uphill_hike": {
+                "tiempo": 7.7,
+                "distancia": 0.55,
+                "ritmo": 14.21,
+                "pulso": 159.91,
+                "potencia": 276.38,
+                "cuesta_porcentaje": 29.14,
+                "desnivel": 157.4,
+                "velocidad_vertical m/h": 1226.49
+            },
+            "downhill_run": {
+                "tiempo": 8.55,
+                "distancia": 2.1,
+                "ritmo": 4.1,
+                "pulso": 151.92,
+                "potencia": 256.43,
+                "cuesta_porcentaje": -15.06,
+                "desnivel": 303.2,
+                "velocidad_vertical m/h": 2127.72
+            }
+        },
+        "pulso 160_170": {},
+        "pulso 170_180": {
+            "uphill_run": {
+                "tiempo": 14.18,
+                "distancia": 2.09,
+                "ritmo": 6.94,
+                "pulso": 176.58,
+                "potencia": 369.74,
+                "cuesta_porcentaje": 13.75,
+                "desnivel": 287.2,
+                "velocidad_vertical m/h": 1215.23
+            },
+            "downhill_run": {
+                "tiempo": 12.7,
+                "distancia": 2.84,
+                "ritmo": 4.15,
+                "pulso": 174.79,
+                "potencia": 294.62,
+                "cuesta_porcentaje": -6.54,
+                "desnivel": 82.8,
+                "velocidad_vertical m/h": 391.18
+            }
+        },
+        "pulso": {
+            "tiempo": 8.35,
+            "distancia": 0.49,
+            "ritmo": 17.91,
+            "pulso": 160.33,
+            "potencia": 244.03,
+            "cuesta_porcentaje": 35.72,
+            "desnivel": 166.2,
+            "velocidad_vertical m/h": 1194.25
+        }
+    },
+    "2022": {
+        "pulso 110_120": {
+            "uphill_hike": {
+                "tiempo": 9.78,
+                "distancia": 1.31,
+                "ritmo": 10.77,
+                "pulso": 112.76,
+                "potencia": 218.72,
+                "cuesta_porcentaje": 16.16,
+                "desnivel": 26.4,
+                "velocidad_vertical m/h": 161.96
+            },
+            "downhill_run": {
+                "tiempo": 16.33,
+                "distancia": 2.5,
+                "ritmo": 5.75,
+                "pulso": 118.11,
+                "potencia": 198.53,
+                "cuesta_porcentaje": -12.7,
+                "desnivel": 175.8,
+                "velocidad_vertical m/h": 645.93,
+                "fecha": "2022-03-09"
+            }
+        },
+        "pulso 120_130": {
+            "uphill_run": {
+                "tiempo": 8.32,
+                "distancia": 0.8,
+                "ritmo": 10.62,
+                "pulso": 128.18,
+                "potencia": 238.5,
+                "cuesta_porcentaje": 15.17,
+                "desnivel": 116.8,
+                "velocidad_vertical m/h": 842.31
+            },
+            "uphill_hike": {
+                "tiempo": 7.3,
+                "distancia": 0.49,
+                "ritmo": 15.36,
+                "pulso": 129.55,
+                "potencia": 209.08,
+                "cuesta_porcentaje": 23.49,
+                "desnivel": 110.2,
+                "velocidad_vertical m/h": 905.75
+            },
+            "downhill_run": {
+                "tiempo": 68.08,
+                "distancia": 9.02,
+                "ritmo": Infinity,
+                "pulso": 127.93,
+                "potencia": 333.59,
+                "cuesta_porcentaje": -13.06,
+                "desnivel": 331.8,
+                "velocidad_vertical m/h": 292.42
+            }
+        },
+        "pulso 130_140": {
+            "uphill_hike": {
+                "tiempo": 78.37,
+                "distancia": 11.81,
+                "ritmo": 11.98,
+                "pulso": 139.75,
+                "potencia": 229.68,
+                "cuesta_porcentaje": 18.41,
+                "desnivel": 297.8,
+                "velocidad_vertical m/h": 228.0
+            },
+            "downhill_run": {
+                "tiempo": 14.67,
+                "distancia": 2.64,
+                "ritmo": 4.48,
+                "pulso": 137.19,
+                "potencia": 260.04,
+                "cuesta_porcentaje": -8.9,
+                "desnivel": 85.8,
+                "velocidad_vertical m/h": 350.92
+            }
+        },
+        "pulso 140_150": {
+            "uphill_run": {
+                "tiempo": 50.37,
+                "distancia": 9.91,
+                "ritmo": 7.23,
+                "pulso": 145.38,
+                "potencia": 285.24,
+                "cuesta_porcentaje": 8.31,
+                "desnivel": 244.2,
+                "velocidad_vertical m/h": 290.89
+            },
+            "uphill_hike": {
+                "tiempo": 30.4,
+                "distancia": 4.68,
+                "ritmo": 11.78,
+                "pulso": 143.19,
+                "potencia": 235.51,
+                "cuesta_porcentaje": 17.81,
+                "desnivel": 94.0,
+                "velocidad_vertical m/h": 185.53
+            },
+            "downhill_run": {
+                "tiempo": 28.75,
+                "distancia": 5.11,
+                "ritmo": 4.55,
+                "pulso": 143.2,
+                "potencia": 266.66,
+                "cuesta_porcentaje": -8.77,
+                "desnivel": 213.8,
+                "velocidad_vertical m/h": 446.19
+            }
+        },
+        "pulso 150_160": {
+            "uphill_run": {
+                "tiempo": 54.8,
+                "distancia": 8.75,
+                "ritmo": 7.19,
+                "pulso": 156.32,
+                "potencia": 332.04,
+                "cuesta_porcentaje": 13.29,
+                "desnivel": 185.6,
+                "velocidad_vertical m/h": 203.21
+            },
+            "uphill_hike": {
+                "tiempo": 7.8,
+                "distancia": 0.63,
+                "ritmo": 12.61,
+                "pulso": 157.95,
+                "potencia": 255.66,
+                "cuesta_porcentaje": 23.89,
+                "desnivel": 146.6,
+                "velocidad_vertical m/h": 1127.69
+            },
+            "downhill_run": {
+                "tiempo": 44.68,
+                "distancia": 9.93,
+                "ritmo": 4.44,
+                "pulso": 152.47,
+                "potencia": 303.97,
+                "cuesta_porcentaje": -3.45,
+                "desnivel": 23.8,
+                "velocidad_vertical m/h": 31.96
+            }
+        },
+        "pulso 160_170": {},
+        "pulso 170_180": {
+            "uphill_run": {
+                "tiempo": 25.45,
+                "distancia": 5.84,
+                "ritmo": 6.2,
+                "pulso": 172.2,
+                "potencia": 354.48,
+                "cuesta_porcentaje": 11.4,
+                "desnivel": 375.8,
+                "velocidad_vertical m/h": 885.97
+            },
+            "downhill_run": {
+                "tiempo": 10.97,
+                "distancia": 2.56,
+                "ritmo": 3.64,
+                "pulso": 171.57,
+                "potencia": 321.85,
+                "cuesta_porcentaje": -8.81,
+                "desnivel": 86.8,
+                "velocidad_vertical m/h": 474.75
+            }
+        },
+        "pulso": {
+            "tiempo": 10.95,
+            "distancia": 2.73,
+            "ritmo": 3.79,
+            "pulso": 168.47,
+            "potencia": 319.93,
+            "cuesta_porcentaje": -6.94,
+            "desnivel": 88.0,
+            "velocidad_vertical m/h": 482.19
+        }
+    },
+    "2021": {
+        "pulso 110_120": {
+            "uphill_hike": {
+                "tiempo": 13.47,
+                "distancia": 0.74,
+                "ritmo": 19.11,
+                "pulso": 117.47,
+                "potencia": 200.91,
+                "cuesta_porcentaje": 31.69,
+                "desnivel": 224.0,
+                "velocidad_vertical m/h": 997.77,
+                "fecha": "2021-09-09"
+            },
+            "downhill_run": {
+                "tiempo": 7.07,
+                "distancia": 1.27,
+                "ritmo": 5.11,
+                "pulso": 116.34,
+                "potencia": 227.03,
+                "cuesta_porcentaje": -10.3,
+                "desnivel": 85.4,
+                "velocidad_vertical m/h": 724.75,
+                "fecha": "2021-10-11"
+            }
+        },
+        "pulso 120_130": {
+            "uphill_hike": {
+                "tiempo": 50.15,
+                "distancia": 6.88,
+                "ritmo": 11.78,
+                "pulso": 124.87,
+                "potencia": 198.17,
+                "cuesta_porcentaje": 14.39,
+                "desnivel": 269.8,
+                "velocidad_vertical m/h": 322.79
+            },
+            "downhill_run": {
+                "tiempo": 8.73,
+                "distancia": 1.37,
+                "ritmo": 6.97,
+                "pulso": 126.23,
+                "potencia": 181.35,
+                "cuesta_porcentaje": -19.83,
+                "desnivel": 258.0,
+                "velocidad_vertical m/h": 1773.2
+            }
+        },
+        "pulso 130_140": {
+            "uphill_hike": {
+                "tiempo": 37.88,
+                "distancia": 5.38,
+                "ritmo": 11.41,
+                "pulso": 139.95,
+                "potencia": 220.05,
+                "cuesta_porcentaje": 17.57,
+                "desnivel": 378.2,
+                "velocidad_vertical m/h": 599.05
+            },
+            "downhill_run": {
+                "tiempo": 34.57,
+                "distancia": 4.79,
+                "ritmo": 5.76,
+                "pulso": 139.47,
+                "potencia": 220.03,
+                "cuesta_porcentaje": -13.49,
+                "desnivel": 354.4,
+                "velocidad_vertical m/h": 615.1
+            }
+        },
+        "pulso 140_150": {
+            "uphill_run": {
+                "tiempo": 40.72,
+                "distancia": 7.54,
+                "ritmo": 8.13,
+                "pulso": 146.6,
+                "potencia": 251.27,
+                "cuesta_porcentaje": 9.23,
+                "desnivel": 237.2,
+                "velocidad_vertical m/h": 349.51
+            },
+            "uphill_hike": {
+                "tiempo": 29.8,
+                "distancia": 3.39,
+                "ritmo": 12.19,
+                "pulso": 141.29,
+                "potencia": 217.84,
+                "cuesta_porcentaje": 18.27,
+                "desnivel": 316.2,
+                "velocidad_vertical m/h": 636.64
+            },
+            "downhill_run": {
+                "tiempo": 41.03,
+                "distancia": 6.18,
+                "ritmo": Infinity,
+                "pulso": 145.23,
+                "potencia": 227.85,
+                "cuesta_porcentaje": -11.26,
+                "desnivel": 340.0,
+                "velocidad_vertical m/h": 497.2
+            }
+        },
+        "pulso 150_160": {
+            "uphill_run": {
+                "tiempo": 27.22,
+                "distancia": 5.66,
+                "ritmo": 6.1,
+                "pulso": 158.93,
+                "potencia": 317.09,
+                "cuesta_porcentaje": 9.27,
+                "desnivel": 453.0,
+                "velocidad_vertical m/h": 998.53
+            },
+            "uphill_hike": {
+                "tiempo": 9.2,
+                "distancia": 0.7,
+                "ritmo": 13.4,
+                "pulso": 159.58,
+                "potencia": 273.18,
+                "cuesta_porcentaje": 27.92,
+                "desnivel": 190.2,
+                "velocidad_vertical m/h": 1240.43
+            },
+            "downhill_run": {
+                "tiempo": 8.83,
+                "distancia": 2.03,
+                "ritmo": 4.15,
+                "pulso": 155.17,
+                "potencia": 263.89,
+                "cuesta_porcentaje": -17.58,
+                "desnivel": 227.4,
+                "velocidad_vertical m/h": 1545.19
+            }
+        },
+        "pulso 160_170": {},
+        "pulso 170_180": {
+            "uphill_run": {
+                "tiempo": 31.03,
+                "distancia": 5.97,
+                "ritmo": Infinity,
+                "pulso": 173.29,
+                "potencia": 327.01,
+                "cuesta_porcentaje": 12.44,
+                "desnivel": 393.6,
+                "velocidad_vertical m/h": 761.07
+            },
+            "uphill_hike": {
+                "tiempo": 9.33,
+                "distancia": 0.57,
+                "ritmo": 17.13,
+                "pulso": 171.11,
+                "potencia": 220.99,
+                "cuesta_porcentaje": 29.09,
+                "desnivel": 158.0,
+                "velocidad_vertical m/h": 1016.08
+            }
+        },
+        "pulso": {
+            "tiempo": 12.47,
+            "distancia": 2.66,
+            "ritmo": 3.96,
+            "pulso": 167.65,
+            "potencia": 297.75,
+            "cuesta_porcentaje": -8.43,
+            "desnivel": 85.4,
+            "velocidad_vertical m/h": 410.91
+        }
+    },
+    "2020": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    },
+    "2019": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    },
+    "2018": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    },
+    "2017": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    },
+    "2016": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    },
+    "2015": {
+        "pulso 110_120": {},
+        "pulso 120_130": {},
+        "pulso 130_140": {},
+        "pulso 140_150": {},
+        "pulso 150_160": {},
+        "pulso 160_170": {},
+        "pulso 170_180": {}
+    }
+}
