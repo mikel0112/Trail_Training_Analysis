@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import yaml
+import plotly.graph_objects as go
 from request_data import activities_summary_data
 from count_settings import strava_api_settings
 from yearly_intensity_distribution import dataframes_dict, power_curve
@@ -167,6 +168,77 @@ class ActivityMetrics:
 
         return self
     
+def plot_activity_chart(diccionario_dataframes, fecha):
+
+    for key in diccionario_dataframes:
+        if diccionario_dataframes[key]['fecha'] == fecha:
+            ultima_actividad = key
+            break
+        else:
+            ultima_actividad = None
+    if ultima_actividad is None:
+        raise ValueError(f"No se encontraron actividades para la fecha {fecha}.")
+    # Create a Plotly figure
+    fig = go.Figure()
+
+    # Add Pulso (heart rate) trace
+    fig.add_trace(go.Scatter(
+        x=diccionario_dataframes[ultima_actividad]['datos']['distancia'],
+        y=diccionario_dataframes[ultima_actividad]['datos']['heartrate'],
+        mode='lines',
+        name='Pulso (bpm)',
+        line=dict(color='blue'),
+        hoverinfo='text',
+        hovertext=[
+            f'Distancia: {distancia} km<br>Pulso: {pulso} bpm<br>'
+            for distancia, pulso in zip(diccionario_dataframes[ultima_actividad]['datos']['distancia'], diccionario_dataframes[ultima_actividad]['datos']['heartrate'])
+        ],
+        yaxis='y1'  # Assign this trace to y1
+    ))
+
+    # Add Potencia (power) trace
+    fig.add_trace(go.Scatter(
+        x=diccionario_dataframes[ultima_actividad]['datos']['distancia'],
+        y=diccionario_dataframes[ultima_actividad]['datos']['watts'],
+        mode='lines',
+        name='Potencia (W)',
+        line=dict(color='red'),
+        hoverinfo='text',
+        hovertext=[
+            f'Distancia: {distancia} km<br>Potencia: {potencia} W<br>'
+            for distancia, potencia in zip(diccionario_dataframes[ultima_actividad]['datos']['distancia'], diccionario_dataframes[ultima_actividad]['datos']['watts'])
+        ],
+        yaxis='y2'  # Assign this trace to y2
+    ))
+
+    # Add Altitud (altitude) trace
+    fig.add_trace(go.Scatter(
+        x=diccionario_dataframes[ultima_actividad]['datos']['distancia'],
+        y=diccionario_dataframes[ultima_actividad]['datos']['altitude'],
+        mode='lines',
+        name='Altitud (m)',
+        line=dict(color='green'),
+        hoverinfo='text',
+        hovertext=[
+            f'Distancia: {distancia} km<br>Altitud: {altitud} m<br>'
+            for distancia, altitud in zip(diccionario_dataframes[ultima_actividad]['datos']['distancia'], diccionario_dataframes[ultima_actividad]['datos']['altitude'])
+        ],
+        yaxis='y3'  # Assign this trace to y3
+    ))
+
+    # Update layout for the figure with multiple y-axes
+    fig.update_layout(
+        title='Último entrenamiento',
+        xaxis_title='Distancia (km)',
+        yaxis=dict(title='Pulso (bpm)', side='left', position=0),
+        yaxis2=dict(title='Potencia (W)', overlaying='y', side='right', position=0.85),  # Right side for power
+        yaxis3=dict(title='Altitud (m)', overlaying='y', side='right', position=0.95),   # Right side for altitude
+        hovermode='x unified',  # Show hover info for all traces at the same x value
+        showlegend=True
+    )
+
+    # Show the figure
+    fig.show()
 
 if __name__ == "__main__":
     # Load parameters from YAML file
@@ -207,3 +279,7 @@ if __name__ == "__main__":
     activity_metrics.IF_Intensity_Factor()
     activity_metrics.VI_Variability_Index()
     activity_metrics.plot_efficiency_factor()
+
+    # show activity plot
+    fecha_actividad = input("Ingrese la fecha de la actividad (YYYY-MM-DD): ")
+    plot_activity_chart(dfs_dict, fecha_actividad)
