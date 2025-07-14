@@ -61,10 +61,10 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "HTML visualization",
+            "name": "Web visualization",
             "type": "debugpy",
             "request": "launch",
-            "program": "src/html_data_visual.py",
+            "program": "web_data_visual.py",
             "console": "integratedTerminal"
         },
     ]
