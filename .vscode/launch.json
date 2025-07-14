@@ -60,5 +60,12 @@
             "program": "src/yearly_performance_uphill_hike_run_downhill.py",
             "console": "integratedTerminal"
         },
+        {
+            "name": "HTML visualization",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/html_data_visual.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
